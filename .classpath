@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/lib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="src/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/fluent-hc-4.5.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient-cache-4.5.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient-osgi-4.5.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient-win-4.5.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient5-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient5-cache-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient5-fluent-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient5-testing-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpclient5-win-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpcore-4.4.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpcore5-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpcore5-h2-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpcore5-reactive-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpcore5-testing-5.1.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/httpmime-4.5.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/itext-asian-5.2.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/itextpdf-5.5.13.jar"/>
+	<classpathentry kind="lib" path="src/lib/jacob.jar"/>
+	<classpathentry kind="lib" path="src/lib/jintellitype-1.3.9.jar"/>
+	<classpathentry kind="lib" path="src/lib/jl1.0.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/jna-4.5.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/jna-5.2.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jna-platform-4.5.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/jna-platform-5.2.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/mp3spi1.9.5.jar"/>
+	<classpathentry kind="lib" path="src/lib/mysql-connector-java-5.1.43.jar"/>
+	<classpathentry kind="lib" path="src/lib/opencv-347.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="examine/src/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/lib/pdfbox-2.0.24.jar"/>
+	<classpathentry kind="lib" path="src/lib/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="src/lib/rxjava-2.2.8.jar"/>
+	<classpathentry kind="lib" path="src/lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="src/lib/TableLayout.jar"/>
+	<classpathentry kind="lib" path="src/lib/tritonus_share.jar"/>
+	<classpathentry kind="lib" path="src/lib/slf4j-nop-1.5.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
