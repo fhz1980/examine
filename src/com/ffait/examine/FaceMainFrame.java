@@ -20,6 +20,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 
+import com.ffait.util.ImageBlur;
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.highgui.HighGui;
@@ -190,6 +191,7 @@ public static void start() {
 		Mat frame = new Mat();
 		while (true) {
 			camera.read(frame);
+			BufferedImage bufferedImage = ImageBlur.gausssianBlur(frame);
             BufferedImage bi=fs.mat2BI(frame);
             //System.out.println("3333333333333");
             long currenttime=System.currentTimeMillis();
@@ -280,19 +282,14 @@ public static void start() {
             	}).start();
             	pretime=currenttime;
             }
-            
-            showImg = DownloadFromUrl.deepCopy(bi);
-            
-            DownloadFromUrl.drawFace(showImg);
-            
-            cameralable.setIcon(new ImageIcon(showImg));
-          
 
-          
+			showImg = DownloadFromUrl.deepCopy(bi);
+//			BufferedImage bufferedImage = ImageBlur.gausssianBlur(frame);
+			ImageBlur.drawFace(bufferedImage,showImg.getSubimage(350,190,270,340));
+            cameralable.setIcon(new ImageIcon(bufferedImage));
+
 		}
 
-		
-		//HighGui.destroyAllWindows();
 	}
 }
 	
