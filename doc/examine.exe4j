@@ -16,7 +16,7 @@
       <versionLine x="20" y="40" text="version %VERSION%" fontSize="8" fontColor="0,0,0" bold="false" />
     </text>
   </splashScreen>
-  <java mainClass="com.ffait.examine.FaceMainFrame" mainMode="1" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="server" bundleRuntime="true" minVersion="1.7" maxVersion="" allowBetaVM="false" jdkOnly="false">
+  <java mainClass="examine.com.nokola.examine.FaceMainFrame" mainMode="1" vmParameters="" arguments="" allowVMPassthroughParameters="true" preferredVM="server" bundleRuntime="true" minVersion="1.7" maxVersion="" allowBetaVM="false" jdkOnly="false">
     <searchSequence>
       <directory location="../jre1.8.0_74" />
     </searchSequence>
